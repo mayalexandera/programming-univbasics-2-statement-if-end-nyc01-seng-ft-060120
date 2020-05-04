@@ -9,3 +9,5 @@ if current_time % 2 == 0
 else
   puts "Odd!"
 end
+
+if current_time.even ? puts "Even!" : puts "Odd!"
