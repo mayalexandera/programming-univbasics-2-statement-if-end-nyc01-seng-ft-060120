@@ -5,4 +5,4 @@ current_time = Time.now.to_i
 
  
 
-if current_time.even? ? puts "Even!" : puts "Odd!"
+if current_time.even? ? (puts "Even!") : (puts "Odd!")
